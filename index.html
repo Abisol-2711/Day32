@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tabs Analytics</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      .nav-item {
+        height: 116px;
+        width: 250px;
+      }
+      .nav-item a:not(.active) {
+        margin-top: 2px;
+      }
+    </style>
+  </head>
+  <body class="">
+    <div class="container w-85 my-4 bg-white">
+      <ul class="nav nav-tabs">
+        <li class="nav-item text-center">
+          <a
+            class="nav-link active border-top border-4 border-warning border-bottom-0 border-start-0 border-end-0 bg-dark text-white"
+            aria-current="page"
+            href="#"
+            style="--bs-bg-opacity: 0.8"
+            id="home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#home-tab-pane"
+          >
+            <div class="text-white-50">Vistas</div>
+            <div class="fs-2 text-white fw-bold">321.7 k</div>
+            <div class="text-white" style="--bs-text-opacity: 0.5">
+              50 k más de lo usual
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bg-dark text-white text-center" href="#" aria-current="page"  id="profile-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#profile-tab-pane">
+            <div class="text-white-50">Vistas</div>
+            <div class="fs-2 text-white fw-bold">321.7 k</div>
+            <div class="text-white fst-italic" style="--bs-text-opacity: 0.5">
+              50 k más de lo usual
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bg-dark text-white text-center" href="#" aria-current="page"  id="profile1-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#profile1-tab-pane">
+            <div class="text-white-50">Vistas</div>
+            <div class="fs-2 text-white fw-bold">321.7 k</div>
+            <div class="text-white fst-italic" style="--bs-text-opacity: 0.5">
+              50 k más de lo usual
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bg-dark text-white text-center" href="#" aria-current="page"  id="profile2-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#profile2-tab-pane">
+            <div class="text-white-50">Vistas</div>
+            <div class="fs-2 text-white fw-bold">321.7 k</div>
+            <div class="text-white fst-italic" style="--bs-text-opacity: 0.5">
+              50 k más de lo usual
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt maxime minima quaerat voluptates et optio quas, sunt quis rerum doloribus illum. Assumenda nesciunt consequuntur a quaerat ipsum ea nostrum amet.
+        </div>
+
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam tempore debitis aperiam aliquid. Quae, iusto aliquam accusamus corrupti adipisci fugiat beatae quos sed ut consequuntur temporibus, repudiandae odio aliquid vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat, sed, autem neque nesciunt nisi ea fugiat perferendis fuga nemo esse praesentium omnis voluptatibus, commodi officia itaque rem quos consectetur?
+        </div>
+
+        <div class="tab-pane fade" id="profile1-tab-pane" role="tabpanel" aria-labelledby="profile1-tab" tabindex="0">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt maxime minima quaerat voluptates et optio quas, sunt quis rerum doloribus illum. Assumenda nesciunt consequuntur a quaerat ipsum ea nostrum amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dignissimos minus. Adipisci laboriosam atque quis beatae dolores maxime fugit ea cumque nesciunt quia recusandae numquam omnis, veniam, asperiores commodi repudiandae? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione suscipit laudantium ad quam illum autem ut voluptatum ipsa consequatur. Pariatur in iste odio quae atque magnam facere molestias voluptatum cupiditate?
+        </div>
+
+        <div class="tab-pane fade" id="profile2-tab-pane" role="tabpanel" aria-labelledby="profile2-tab" tabindex="0">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt maxime minima quaerat voluptates et optio quas, sunt quis rerum doloribus illum. Assumenda nesciunt consequuntur a quaerat ipsum ea nostrum amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dignissimos minus. Adipisci laboriosam atque quis beatae dolores maxime fugit ea cumque nesciunt quia recusandae numquam omnis, veniam, asperiores commodi repudiandae? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione suscipit laudantium ad quam illum autem ut voluptatum ipsa consequatur. Pariatur in iste odio quae atque magnam facere molestias voluptatum cupiditate? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia molestiae vitae neque aliquam voluptatem excepturi nesciunt ducimus? Architecto veritatis adipisci at quisquam voluptate repellendus nemo, facilis sequi? Iste, obcaecati.
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      navLinks.forEach((navLink) => {
+        navLink.addEventListener("click", (e) => {
+          navLinks.forEach((link) => {
+            link.classlist.remove(
+              "border-top",
+              "border-4",
+              "border-warning",
+              "border-bottom-0",
+              "border-start-0",
+              "border-end-0"
+            );
+            link.style = "";
+          });
+          navLink.classList.add(
+            "border-top",
+              "border-4",
+              "border-warning",
+              "border-bottom-0",
+              "border-start-0",
+              "border-end-0"
+          );
+          navLink.style = "--bs-bg-opacity: 0.8";
+        });
+      });
+    </script>
+  </body>
+</html>
